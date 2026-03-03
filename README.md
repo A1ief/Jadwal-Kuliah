@@ -19,31 +19,17 @@ Aplikasi manajemen jadwal perkuliahan berbasis web dengan PHP Native dan Tailwin
 - **Database**: MySQL
 - **Font**: Google Fonts (Inter)
 
-## 🛠️ Instalasi
-
-1. **Clone Repository**
-```bash
-git clone https://github.com/username/jadwal-kuliah.git
-cd jadwal-kuliah
-```
-
-2. **Konfigurasi Database**
-- Buka file `config/database.php`
-- Sesuaikan konfigurasi dengan database Anda:
-```
-
 ## 📁 Struktur Folder
 
 ```
 jadwal-kuliah/
 ├── config/
-│   └── database.php          # Konfigurasi koneksi database
+│   └── database.php 
 ├── includes/
-│   └── functions.php          # Fungsi-fungsi utama aplikasi
-├── index.php                   # Halaman utama (daftar jadwal)
-├── tambah.php                  # Form tambah jadwal
-├── edit.php                    # Form edit jadwal
-├── hapus.php                    # Proses hapus jadwal
-└── README.md                    # Dokumentasi project
+│   └── functions.php
+├── index.php  
+├── tambah.php
+├── edit.php
+├── hapus.php
+└── README.md
 ```
-
